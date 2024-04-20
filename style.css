@@ -38,6 +38,7 @@
     /* Establish a stacking context for the grid items */
     justify-content: center;
     /* Center the grid cells horizontally */
+    border: 3px solid rgb(255, 184, 146);
 }
 
 .grid-item {
