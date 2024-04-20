@@ -15,13 +15,20 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 200px;
     grid-gap: 10px;
-    overflow: hidden; /* Hide the parts of the images that overflow the grid cells */
+    grid-row-gap: 10px;
+    
 }
 
 .grid-item {
     border: 1px solid rgb(255, 184, 146);
     background-color: rgb(207, 120, 58);
+    overflow: hidden;
 }
+
+.grid-item:hover {
+    overflow: visible; /* Show the full image when you hover over it */
+}
+
 
 .grid-item img {
     width: auto;
@@ -36,5 +43,5 @@ body {
 
 .grid-item figcaption {
     text-align: center;
-    color: white;
+    color: rgb(253, 145, 181);
 }
