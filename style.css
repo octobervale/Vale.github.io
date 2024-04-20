@@ -39,7 +39,7 @@ hr {
     /* Position the images relative to the grid items */
     z-index: 1;
     /* Stack the images below the hovered images */
-    height: 400px;
+   
 }
 
 .grid-item:hover {
@@ -52,6 +52,7 @@ hr {
 
 .grid-item img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: transform .2s;
 }
