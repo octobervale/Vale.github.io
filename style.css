@@ -4,6 +4,15 @@
     font-family: 'Lucida Grande', sans-serif;
 }
 
+.bold{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.medi{
+    font-weight: bold;
+}
+
 .body {
     background-color: rgb(64, 0, 45);
     color: rgb(255, 182, 209);
