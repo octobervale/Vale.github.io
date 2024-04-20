@@ -19,7 +19,7 @@ body {
     grid-gap: 20px;
     grid-row-gap: 20px;
     position: relative; /* Establish a stacking context for the grid items */
-    align-items: center; /* Center the grid cells vertically */
+    justify-content: center; /* Center the grid cells horizontally */
 }
 
 .grid-item {
@@ -54,7 +54,7 @@ body {
 /* The overlay that will contain the full image */
 #overlay {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
