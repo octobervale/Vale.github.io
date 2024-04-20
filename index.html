@@ -3,13 +3,15 @@
 
 <head>
     <style>
-        .flex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
     }
-    .flex-item {
-        margin: 10px;
+    .grid-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
     </style>
 </head>
@@ -46,32 +48,32 @@
     <p>
         check out my work!
     </p>
-    <div class="flex-container">
-        <div class="flex-item">
+    <div class="grid-container">
+        <div class="grid-item">
             <img src="assets/images/3333.png" alt="Tree Landscape" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/b1.png" alt="Bazel Phone Wallpaper" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/bazel.png" alt="original Bazel Reference" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/bazel_updated.png" alt="Updated Bazel Design" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/bee_sticker.png" alt="Chibi Bazel" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/bird.png" alt="SFX practice 1" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/color.png" alt="Jinx Jar Logo" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/d.png" alt="Dandelion Mermaid" style="width:100%;">
         </div>
-        <div class="flex-item">
+        <div class="grid-item">
             <img src="assets/images/e1.png" alt="Eurymedon Phone Background" style="width:100%;">
         </div>
     </div>
