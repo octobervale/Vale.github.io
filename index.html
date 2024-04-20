@@ -2,7 +2,20 @@
 <html>
 
 <head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(9, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            gap: 10px;
+        }
 
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,15 +47,24 @@
     <p>
         I'm also an avid reader, and almost always have a book I'm currently reading.
     </p>
-    <hr>
     <p>
         check out my work!
     </p>
-    <p>ut porttitor leo a diam</p>
     <img src="./images/color.png" alt="Jinx Jars Logo" style="width:40%;height:40%;">
     <img src="./images/Fool.png" alt="Tarot Card" style="width:30%;height:30%;">
     <img src="./images/orchid.png" alt="my logo">
-    <hr>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="./images/color.png" alt="Jinx Jars Logo" style="width:100%;">
+        </div>
+        <div class="grid-item">
+            <img src="./images/Fool.png" alt="Tarot Card" style="width:100%;">
+        </div>
+        <div class="grid-item">
+            <img src="./images/orchid.png" alt="my logo" style="width:100%;">
+        </div>
+        <!-- Add more grid items as needed -->
+    </div>
     <a href="https://dec2023myportfolio.my.canva.site/">check out my original portfolio!</a>
     <hr>
     <a href="mailto:valesmith@u.boisestate.edu">send me an email!</a>
