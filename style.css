@@ -1,3 +1,9 @@
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Lucida Grande', sans-serif;
+}
+
 body {
     background-color: rgb(64, 0, 45);
     color: rgb(255, 182, 209);
@@ -7,6 +13,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
     grid-gap: 10px;
 }
 
