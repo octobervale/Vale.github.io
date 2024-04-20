@@ -19,7 +19,7 @@ body {
     grid-gap: 20px;
     grid-row-gap: 20px;
     position: relative; /* Establish a stacking context for the grid items */
-    
+    align-items: center; /* Center the grid cells vertically */
 }
 
 .grid-item {
