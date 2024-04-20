@@ -46,14 +46,13 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
     transition: transform .2s;
 }
 
 .grid-item img:hover {
     transform: scale(2);
     /* Scale the hovered images up */
-    background: rgba(255, 192, 203, 0.5);
+    background: rgba(248, 138, 196, 0.5);
     /* Add a light pink background */
     padding: 10px;
     /* Make the background 10px wider than the image */
@@ -79,6 +78,5 @@ body {
 #overlay img {
     max-width: 90%;
     max-height: 90%;
-
     margin: auto;
 }

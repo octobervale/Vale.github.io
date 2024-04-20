@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -37,52 +38,56 @@
     <p>
         check out my work!
     </p>
-    <div class="grid-container">
-        <div class="grid-item">
-            <img src="assets/images/3333.png" alt="Tree Landscape" onclick="openImage(this)">
-
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/b1.png" alt="Bazel Phone Wallpaper" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/bazel.png" alt="Original Bazel Reference" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/bazel_updated.png" alt="Updated Bazel Design" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/bee_sticker.png" alt="Chibi Bazel" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/bird.png" alt="SFX practice 1" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/color.png" alt="Jinx Jar Logo" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/d.png" alt="Dandelion Mermaid" onclick="openImage(this)">
-
-            </figure>
-        </div>
-        <div class="grid-item">
-            <img src="assets/images/e1.png" alt="Eurymedon Phone Background" onclick="openImage(this)">
-
-            </figure>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/3333.png" alt="Tree Landscape" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/b1.png" alt="Bazel Phone Wallpaper" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/bazel.png" alt="Original Bazel Reference" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/bazel_updated.png" alt="Updated Bazel Design" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/bee_sticker.png" alt="Chibi Bazel" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/bird.png" alt="SFX practice 1" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/color.png" alt="Jinx Jar Logo" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/d.png" alt="Dandelion Mermaid" onclick="openImage(this)">
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <figure class="grid-item">
+                    <img src="assets/images/e1.png" alt="Eurymedon Phone Background" onclick="openImage(this)">
+                </figure>
+            </div>
         </div>
     </div>
+
     <div id="overlay" onclick="closeImage()">
         <img id="overlayImage">
     </div>
