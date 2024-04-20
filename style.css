@@ -13,9 +13,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 620px);
-    grid-auto-columns: 620px;
-    grid-auto-rows: 620px;
+    grid-template-columns: repeat(auto-fill, 999px);
+    grid-auto-columns: 999px;
+    grid-auto-rows: 999px;
     grid-gap: 20px;
     grid-row-gap: 20px;
     position: relative; /* Establish a stacking context for the grid items */
