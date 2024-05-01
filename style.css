@@ -2,6 +2,7 @@
     font-weight: bold;
     font-size: 3em;
     font-family: 'Lucida Grande', sans-serif;
+    color: rgb(251, 165, 222);
 }
 
 .bold{
@@ -16,12 +17,12 @@
 
 .mini{
     font-weight: normal;
-    color: rgb(80, 4, 55);
+    
 }
 
 .body {
     background-color: rgb(64, 0, 45);
-    color: rgb(238, 164, 213);
+    color: rgb(251, 165, 222);
     text-align: center;
     font-size: 23px;
 }
