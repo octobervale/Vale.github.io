@@ -14,15 +14,17 @@
     color: rgb(43, 2, 29);
 }
 
-.mini{
-    color: rgb(80, 4, 55);
-}
+
 
 .body {
     background-color: rgb(64, 0, 45);
     color: rgb(255, 182, 209);
     text-align: center;
     font-size: 23px;
+}
+
+.mini{
+    color: rgb(80, 4, 55);
 }
 
 .hr {
@@ -49,6 +51,7 @@
 
 .bio{
     border: 3px solid rgb(255, 182, 209); 
+    color: rgb(255, 182, 209);
     background-color: rgb(105, 2, 74);
     
 }
