@@ -15,12 +15,13 @@
 }
 
 .mini{
+    font-weight: normal;
     color: rgb(80, 4, 55);
 }
 
 .body {
     background-color: rgb(64, 0, 45);
-    color: rgb(65, 0, 43);
+    color: rgb(238, 164, 213);
     text-align: center;
     font-size: 23px;
 }
